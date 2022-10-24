@@ -68,7 +68,7 @@ public class CurrencyConverter extends javax.swing.JOptionPane
      */
     public static void main(String[] args) throws FileNotFoundException, IOException 
     {
-        File file = new File("/Users/jackson/NetBeansProjects/CurrencyConverter/src/currencyconverter/Currency Rates.txt");
+        File file = new File("Currency_Rates.txt");
         HashMap<String,Double> map = readFile(file);
         String[] possibilities = getTypes(map);
         JTextField currval1 = new JTextField(10);
